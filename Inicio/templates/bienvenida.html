@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bienvenida.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido al blog de viajes!</h1>
+        <p>Esta es la página de bienvenida .</p>
+        <a href="{% url 'login' %}" class="btn">Ingresar</a>
+    </div>
+</body>
+</html>
